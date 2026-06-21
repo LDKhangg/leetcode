@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-3-blue)
+![Total](https://img.shields.io/badge/Total-4-blue)
 ![Easy](https://img.shields.io/badge/Easy-1-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-2-orange)
+![Medium](https://img.shields.io/badge/Medium-3-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 1 |
-| 🟡 Medium  | 2 |
+| 🟡 Medium  | 3 |
 | 🔴 Hard    | 0 |
 
 ## 📁 Structure
@@ -31,10 +31,11 @@ leetcode/
 ### 🟡 Medium
 
 - [`[2]Add Two Numbers`](src/leetcode/editor/en/[2]Add Two Numbers.java)
+- [`[3]Longest Substring Without Repeating Characters`](src/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 
 ### 🔴 Hard
 
 
 ---
-*Last updated: 2026-06-21 12:22*
+*Last updated: 2026-06-21 12:53*
