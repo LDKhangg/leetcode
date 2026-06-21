@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-8-blue)
+![Total](https://img.shields.io/badge/Total-9-blue)
 ![Easy](https://img.shields.io/badge/Easy-1-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-6-orange)
+![Medium](https://img.shields.io/badge/Medium-7-orange)
 ![Hard](https://img.shields.io/badge/Hard-1-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 1 |
-| 🟡 Medium  | 6 |
+| 🟡 Medium  | 7 |
 | 🔴 Hard    | 1 |
 
 ## 📁 Structure
@@ -35,6 +35,7 @@ leetcode/
 - [`[5]Longest Palindromic Substring`](src/leetcode/editor/en/[5]Longest Palindromic Substring.java)
 - [`[6]Zigzag Conversion`](src/leetcode/editor/en/[6]Zigzag Conversion.java)
 - [`[7]Reverse Integer`](src/leetcode/editor/en/[7]Reverse Integer.java)
+- [`[8]String to Integer (atoi)`](src/leetcode/editor/en/[8]String to Integer (atoi).java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 
 ### 🔴 Hard
@@ -42,4 +43,4 @@ leetcode/
 - [`[4]Median of Two Sorted Arrays`](src/leetcode/editor/en/[4]Median of Two Sorted Arrays.java)
 
 ---
-*Last updated: 2026-06-21 15:54*
+*Last updated: 2026-06-21 16:19*
