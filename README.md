@@ -5,17 +5,35 @@ My LeetCode solutions in Java.
 ## 📊 Progress
 
 ![Total](https://img.shields.io/badge/Total-2-blue)
+![Easy](https://img.shields.io/badge/Easy-1-brightgreen)
+![Medium](https://img.shields.io/badge/Medium-1-orange)
+![Hard](https://img.shields.io/badge/Hard-0-red)
 
-| Solved |
-|--------|
-| 2 problems |
+| Difficulty | Solved |
+|------------|--------|
+| 🟢 Easy    | 1 |
+| 🟡 Medium  | 1 |
+| 🔴 Hard    | 0 |
+
+## 📁 Structure
+
+```
+leetcode/
+└── src/leetcode/editor/en/
+```
 
 ## 🗂️ Solutions
 
-- [`[1]Two`](src/leetcode/editor/en/[1]Two)
-- [`Sum`](Sum.java)
-- [`[31]Next`](src/leetcode/editor/en/[31]Next)
-- [`Permutation`](Permutation.java)
+### 🟢 Easy
+
+- [`[1]Two Sum`](src/leetcode/editor/en/[1]Two Sum.java)
+
+### 🟡 Medium
+
+- [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
+
+### 🔴 Hard
+
 
 ---
-*Last updated: 2026-06-21 12:07*
+*Last updated: 2026-06-21 12:10*
