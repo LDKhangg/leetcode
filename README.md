@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-17-blue)
+![Total](https://img.shields.io/badge/Total-18-blue)
 ![Easy](https://img.shields.io/badge/Easy-4-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-11-orange)
+![Medium](https://img.shields.io/badge/Medium-12-orange)
 ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 4 |
-| 🟡 Medium  | 11 |
+| 🟡 Medium  | 12 |
 | 🔴 Hard    | 2 |
 
 ## 📁 Structure
@@ -43,6 +43,7 @@ leetcode/
 - [`[12]Integer to Roman`](src/leetcode/editor/en/[12]Integer to Roman.java)
 - [`[15]3Sum`](src/leetcode/editor/en/[15]3Sum.java)
 - [`[16]3Sum Closest`](src/leetcode/editor/en/[16]3Sum Closest.java)
+- [`[17]Letter Combinations of a Phone Number`](src/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 
 ### 🔴 Hard
@@ -51,4 +52,4 @@ leetcode/
 - [`[10]Regular Expression Matching`](src/leetcode/editor/en/[10]Regular Expression Matching.java)
 
 ---
-*Last updated: 2026-06-21 20:51*
+*Last updated: 2026-06-21 21:04*
