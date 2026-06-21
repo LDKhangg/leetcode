@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-16-blue)
+![Total](https://img.shields.io/badge/Total-17-blue)
 ![Easy](https://img.shields.io/badge/Easy-4-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-10-orange)
+![Medium](https://img.shields.io/badge/Medium-11-orange)
 ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 4 |
-| 🟡 Medium  | 10 |
+| 🟡 Medium  | 11 |
 | 🔴 Hard    | 2 |
 
 ## 📁 Structure
@@ -42,6 +42,7 @@ leetcode/
 - [`[11]Container With Most Water`](src/leetcode/editor/en/[11]Container With Most Water.java)
 - [`[12]Integer to Roman`](src/leetcode/editor/en/[12]Integer to Roman.java)
 - [`[15]3Sum`](src/leetcode/editor/en/[15]3Sum.java)
+- [`[16]3Sum Closest`](src/leetcode/editor/en/[16]3Sum Closest.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 
 ### 🔴 Hard
@@ -50,4 +51,4 @@ leetcode/
 - [`[10]Regular Expression Matching`](src/leetcode/editor/en/[10]Regular Expression Matching.java)
 
 ---
-*Last updated: 2026-06-21 20:45*
+*Last updated: 2026-06-21 20:51*
