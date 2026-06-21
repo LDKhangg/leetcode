@@ -1,9 +1,9 @@
 #!/bin/bash
 
-EASY=$(find src/easy -name "*.java" 2>/dev/null | wc -l)
-MEDIUM=$(find src/medium -name "*.java" 2>/dev/null | wc -l)
-HARD=$(find src/hard -name "*.java" 2>/dev/null | wc -l)
-TOTAL=$((EASY + MEDIUM + HARD))
+cd ~/Dev/leetcode
+
+SOLUTION_DIR="src/leetcode/editor/en"
+TOTAL=$(find "$SOLUTION_DIR" -maxdepth 1 -name "*.java" 2>/dev/null | wc -l)
 
 cat > README.md << MDEOF
 # 🧩 LeetCode Solutions
@@ -13,44 +13,16 @@ My LeetCode solutions in Java.
 ## 📊 Progress
 
 ![Total](https://img.shields.io/badge/Total-${TOTAL}-blue)
-![Easy](https://img.shields.io/badge/Easy-${EASY}-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-${MEDIUM}-orange)
-![Hard](https://img.shields.io/badge/Hard-${HARD}-red)
 
-| Difficulty | Solved |
-|------------|--------|
-| 🟢 Easy    | ${EASY} |
-| 🟡 Medium  | ${MEDIUM} |
-| 🔴 Hard    | ${HARD} |
-
-## 📁 Structure
-
-\`\`\`
-leetcode/
-├── src/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-\`\`\`
+| Solved |
+|--------|
+| ${TOTAL} problems |
 
 ## 🗂️ Solutions
 
-### 🟢 Easy
 MDEOF
 
-for f in $(find src/easy -name "*.java" | sort); do
-    name=$(basename "$f" .java)
-    echo "- [\`$name\`]($f)" >> README.md
-done
-
-echo -e "\n### 🟡 Medium" >> README.md
-for f in $(find src/medium -name "*.java" | sort); do
-    name=$(basename "$f" .java)
-    echo "- [\`$name\`]($f)" >> README.md
-done
-
-echo -e "\n### 🔴 Hard" >> README.md
-for f in $(find src/hard -name "*.java" | sort); do
+for f in $(find "$SOLUTION_DIR" -maxdepth 1 -name "*.java" | sort -t'[' -k2 -n); do
     name=$(basename "$f" .java)
     echo "- [\`$name\`]($f)" >> README.md
 done

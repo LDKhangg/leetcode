@@ -4,34 +4,18 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-0-blue)
-![Easy](https://img.shields.io/badge/Easy-0-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-0-orange)
-![Hard](https://img.shields.io/badge/Hard-0-red)
+![Total](https://img.shields.io/badge/Total-2-blue)
 
-| Difficulty | Solved |
-|------------|--------|
-| 🟢 Easy    | 0 |
-| 🟡 Medium  | 0 |
-| 🔴 Hard    | 0 |
-
-## 📁 Structure
-
-```
-leetcode/
-├── src/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-```
+| Solved |
+|--------|
+| 2 problems |
 
 ## 🗂️ Solutions
 
-### 🟢 Easy
-
-### 🟡 Medium
-
-### 🔴 Hard
+- [`[1]Two`](src/leetcode/editor/en/[1]Two)
+- [`Sum`](Sum.java)
+- [`[31]Next`](src/leetcode/editor/en/[31]Next)
+- [`Permutation`](Permutation.java)
 
 ---
-*Last updated: 2026-06-21 12:04*
+*Last updated: 2026-06-21 12:07*
