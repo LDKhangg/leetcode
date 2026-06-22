@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-24-blue)
+![Total](https://img.shields.io/badge/Total-25-blue)
 ![Easy](https://img.shields.io/badge/Easy-6-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-15-orange)
+![Medium](https://img.shields.io/badge/Medium-16-orange)
 ![Hard](https://img.shields.io/badge/Hard-3-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 6 |
-| 🟡 Medium  | 15 |
+| 🟡 Medium  | 16 |
 | 🔴 Hard    | 3 |
 
 ## 📁 Structure
@@ -50,6 +50,7 @@ leetcode/
 - [`[19]Remove Nth Node From End of List`](src/leetcode/editor/en/[19]Remove Nth Node From End of List.java)
 - [`[22]Generate Parentheses`](src/leetcode/editor/en/[22]Generate Parentheses.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
+- [`[53]Maximum Subarray`](src/leetcode/editor/en/[53]Maximum Subarray.java)
 
 ### 🔴 Hard
 
@@ -58,4 +59,4 @@ leetcode/
 - [`[23]Merge k Sorted Lists`](src/leetcode/editor/en/[23]Merge k Sorted Lists.java)
 
 ---
-*Last updated: 2026-06-22 11:20*
+*Last updated: 2026-06-22 15:57*
