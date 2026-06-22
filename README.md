@@ -4,14 +4,14 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-21-blue)
-![Easy](https://img.shields.io/badge/Easy-5-brightgreen)
+![Total](https://img.shields.io/badge/Total-22-blue)
+![Easy](https://img.shields.io/badge/Easy-6-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-14-orange)
 ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 5 |
+| 🟢 Easy    | 6 |
 | 🟡 Medium  | 14 |
 | 🔴 Hard    | 2 |
 
@@ -31,6 +31,7 @@ leetcode/
 - [`[13]Roman to Integer`](src/leetcode/editor/en/[13]Roman to Integer.java)
 - [`[14]Longest Common Prefix`](src/leetcode/editor/en/[14]Longest Common Prefix.java)
 - [`[20]Valid Parentheses`](src/leetcode/editor/en/[20]Valid Parentheses.java)
+- [`[21]Merge Two Sorted Lists`](src/leetcode/editor/en/[21]Merge Two Sorted Lists.java)
 
 ### 🟡 Medium
 
@@ -55,4 +56,4 @@ leetcode/
 - [`[10]Regular Expression Matching`](src/leetcode/editor/en/[10]Regular Expression Matching.java)
 
 ---
-*Last updated: 2026-06-22 10:38*
+*Last updated: 2026-06-22 10:54*
