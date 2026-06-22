@@ -4,16 +4,16 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-23-blue)
+![Total](https://img.shields.io/badge/Total-24-blue)
 ![Easy](https://img.shields.io/badge/Easy-6-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-15-orange)
-![Hard](https://img.shields.io/badge/Hard-2-red)
+![Hard](https://img.shields.io/badge/Hard-3-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 6 |
 | 🟡 Medium  | 15 |
-| 🔴 Hard    | 2 |
+| 🔴 Hard    | 3 |
 
 ## 📁 Structure
 
@@ -55,6 +55,7 @@ leetcode/
 
 - [`[4]Median of Two Sorted Arrays`](src/leetcode/editor/en/[4]Median of Two Sorted Arrays.java)
 - [`[10]Regular Expression Matching`](src/leetcode/editor/en/[10]Regular Expression Matching.java)
+- [`[23]Merge k Sorted Lists`](src/leetcode/editor/en/[23]Merge k Sorted Lists.java)
 
 ---
-*Last updated: 2026-06-22 11:05*
+*Last updated: 2026-06-22 11:20*
