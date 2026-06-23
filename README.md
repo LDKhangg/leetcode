@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-31-blue)
+![Total](https://img.shields.io/badge/Total-32-blue)
 ![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-16-orange)
+![Medium](https://img.shields.io/badge/Medium-17-orange)
 ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 9 |
-| 🟡 Medium  | 16 |
+| 🟡 Medium  | 17 |
 | 🔴 Hard    | 6 |
 
 ## 📁 Structure
@@ -52,6 +52,7 @@ leetcode/
 - [`[18]4Sum`](src/leetcode/editor/en/[18]4Sum.java)
 - [`[19]Remove Nth Node From End of List`](src/leetcode/editor/en/[19]Remove Nth Node From End of List.java)
 - [`[22]Generate Parentheses`](src/leetcode/editor/en/[22]Generate Parentheses.java)
+- [`[29]Divide Two Integers`](src/leetcode/editor/en/[29]Divide Two Integers.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 - [`[53]Maximum Subarray`](src/leetcode/editor/en/[53]Maximum Subarray.java)
 
@@ -65,4 +66,4 @@ leetcode/
 - [`[32]Longest Valid Parentheses`](src/leetcode/editor/en/[32]Longest Valid Parentheses.java)
 
 ---
-*Last updated: 2026-06-23 21:55*
+*Last updated: 2026-06-23 22:15*
