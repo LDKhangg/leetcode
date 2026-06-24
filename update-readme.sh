@@ -5,13 +5,21 @@ EASY_DIR="src/easy"
 MEDIUM_DIR="src/medium"
 HARD_DIR="src/hard"
 
-build_rows() {
-  local dir="$1" diff="$2" badge="$3"
-  find "$dir" -maxdepth 1 -name "*.java" 2>/dev/null | sort -t'[' -k2 -n | while IFS= read -r f; do
-    name=$(basename "$f" .java)
-    num=$(echo "$name" | grep -oP '\d+' | head -1)
-    title=$(echo "$name" | sed 's/^\[[0-9]*\]//' | xargs)
-    echo "| $badge | $num | [$title]($f) | Java |"
+build_tree() {
+  local dir="$1"
+  local files=()
+  while IFS= read -r f; do files+=("$f"); done < <(find "$dir" -maxdepth 1 -name "*.java" 2>/dev/null | sort -t'[' -k2 -n)
+  local total=${#files[@]}
+  for i in "${!files[@]}"; do
+    local f="${files[$i]}"
+    local name=$(basename "$f" .java)
+    local num=$(echo "$name" | grep -oP '\d+' | head -1)
+    local title=$(echo "$name" | sed 's/^\[[0-9]*\]//' | xargs)
+    if [ $((i + 1)) -eq $total ]; then
+      echo "&nbsp;&nbsp;&nbsp;&nbsp;└── [$num. $title]($f)"
+    else
+      echo "&nbsp;&nbsp;&nbsp;&nbsp;├── [$num. $title]($f)  "
+    fi
   done
 }
 
@@ -20,9 +28,11 @@ MEDIUM_COUNT=$(find "$MEDIUM_DIR" -maxdepth 1 -name "*.java" 2>/dev/null | wc -l
 HARD_COUNT=$(find "$HARD_DIR" -maxdepth 1 -name "*.java" 2>/dev/null | wc -l)
 TOTAL=$((EASY_COUNT + MEDIUM_COUNT + HARD_COUNT))
 
-EASY_ROWS=$(build_rows "$EASY_DIR" "Easy" "🟢")
-MEDIUM_ROWS=$(build_rows "$MEDIUM_DIR" "Medium" "🟡")
-HARD_ROWS=$(build_rows "$HARD_DIR" "Hard" "🔴")
+EASY_TREE=$(build_tree "$EASY_DIR")
+MEDIUM_TREE=$(build_tree "$MEDIUM_DIR")
+HARD_TREE=$(build_tree "$HARD_DIR")
+
+python3 generate-progress.py "$EASY_COUNT" "$MEDIUM_COUNT" "$HARD_COUNT" > progress.svg
 
 cat > README.md << MDEOF
 <div align="center">
@@ -42,21 +52,20 @@ cat > README.md << MDEOF
 
 ## Progress
 
-\`\`\`
-Easy    [$( printf '%.0s█' $(seq 1 $EASY_COUNT) )$( printf '%.0s░' $(seq 1 $((50 - EASY_COUNT > 0 ? 50 - EASY_COUNT : 0))) )] ${EASY_COUNT}
-Medium  [$( printf '%.0s█' $(seq 1 $MEDIUM_COUNT) )$( printf '%.0s░' $(seq 1 $((50 - MEDIUM_COUNT > 0 ? 50 - MEDIUM_COUNT : 0))) )] ${MEDIUM_COUNT}
-Hard    [$( printf '%.0s█' $(seq 1 $HARD_COUNT) )$( printf '%.0s░' $(seq 1 $((50 - HARD_COUNT > 0 ? 50 - HARD_COUNT : 0))) )] ${HARD_COUNT}
-\`\`\`
+![Progress](progress.svg)
 
 ---
 
 ## Solutions
 
-| | # | Problem | Language |
-|---|---|---|---|
-${EASY_ROWS}
-${MEDIUM_ROWS}
-${HARD_ROWS}
+🟢 **easy/** (${EASY_COUNT})
+${EASY_TREE}
+
+🟡 **medium/** (${MEDIUM_COUNT})
+${MEDIUM_TREE}
+
+🔴 **hard/** (${HARD_COUNT})
+${HARD_TREE}
 
 ---
 
