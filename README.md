@@ -21,49 +21,67 @@
 
 ## Solutions
 
-🟢 **easy/** (10)
-&nbsp;&nbsp;&nbsp;&nbsp;├── [1. Two Sum](src/easy/[1]Two Sum.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [9. Palindrome Number](src/easy/[9]Palindrome Number.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [13. Roman to Integer](src/easy/[13]Roman to Integer.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [14. Longest Common Prefix](src/easy/[14]Longest Common Prefix.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [20. Valid Parentheses](src/easy/[20]Valid Parentheses.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [21. Merge Two Sorted Lists](src/easy/[21]Merge Two Sorted Lists.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [26. Remove Duplicates from Sorted Array](src/easy/[26]Remove Duplicates from Sorted Array.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [27. Remove Element](src/easy/[27]Remove Element.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [28. Find the Index of the First Occurrence in a String](src/easy/[28]Find the Index of the First Occurrence in a String.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;└── [35. Search Insert Position](src/easy/[35]Search Insert Position.java)
+<details open>
+<summary>🟢 Easy &nbsp;—&nbsp; <b>10 solved</b></summary>
 
-🟡 **medium/** (19)
-&nbsp;&nbsp;&nbsp;&nbsp;├── [2. Add Two Numbers](src/medium/[2]Add Two Numbers.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [3. Longest Substring Without Repeating Characters](src/medium/[3]Longest Substring Without Repeating Characters.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [5. Longest Palindromic Substring](src/medium/[5]Longest Palindromic Substring.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [6. Zigzag Conversion](src/medium/[6]Zigzag Conversion.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [7. Reverse Integer](src/medium/[7]Reverse Integer.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [8. String to Integer (atoi)](src/medium/[8]String to Integer (atoi).java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [11. Container With Most Water](src/medium/[11]Container With Most Water.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [12. Integer to Roman](src/medium/[12]Integer to Roman.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [15. 3Sum](src/medium/[15]3Sum.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [16. 3Sum Closest](src/medium/[16]3Sum Closest.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [17. Letter Combinations of a Phone Number](src/medium/[17]Letter Combinations of a Phone Number.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [18. 4Sum](src/medium/[18]4Sum.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [19. Remove Nth Node From End of List](src/medium/[19]Remove Nth Node From End of List.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [22. Generate Parentheses](src/medium/[22]Generate Parentheses.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [29. Divide Two Integers](src/medium/[29]Divide Two Integers.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [31. Next Permutation](src/medium/[31]Next Permutation.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [33. Search in Rotated Sorted Array](src/medium/[33]Search in Rotated Sorted Array.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [34. Find First and Last Position of Element in Sorted Array](src/medium/[34]Find First and Last Position of Element in Sorted Array.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;└── [53. Maximum Subarray](src/medium/[53]Maximum Subarray.java)
+| # | Problem |
+|---|---|
+| 1 | [Two Sum](src/easy/[1]Two Sum.java) |
+| 9 | [Palindrome Number](src/easy/[9]Palindrome Number.java) |
+| 13 | [Roman to Integer](src/easy/[13]Roman to Integer.java) |
+| 14 | [Longest Common Prefix](src/easy/[14]Longest Common Prefix.java) |
+| 20 | [Valid Parentheses](src/easy/[20]Valid Parentheses.java) |
+| 21 | [Merge Two Sorted Lists](src/easy/[21]Merge Two Sorted Lists.java) |
+| 26 | [Remove Duplicates from Sorted Array](src/easy/[26]Remove Duplicates from Sorted Array.java) |
+| 27 | [Remove Element](src/easy/[27]Remove Element.java) |
+| 28 | [Find the Index of the First Occurrence in a String](src/easy/[28]Find the Index of the First Occurrence in a String.java) |
+| 35 | [Search Insert Position](src/easy/[35]Search Insert Position.java) |
 
-🔴 **hard/** (6)
-&nbsp;&nbsp;&nbsp;&nbsp;├── [4. Median of Two Sorted Arrays](src/hard/[4]Median of Two Sorted Arrays.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [10. Regular Expression Matching](src/hard/[10]Regular Expression Matching.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [23. Merge k Sorted Lists](src/hard/[23]Merge k Sorted Lists.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [25. Reverse Nodes in k-Group](src/hard/[25]Reverse Nodes in k-Group.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── [30. Substring with Concatenation of All Words](src/hard/[30]Substring with Concatenation of All Words.java)  
-&nbsp;&nbsp;&nbsp;&nbsp;└── [32. Longest Valid Parentheses](src/hard/[32]Longest Valid Parentheses.java)
+</details>
+
+<details open>
+<summary>🟡 Medium &nbsp;—&nbsp; <b>19 solved</b></summary>
+
+| # | Problem |
+|---|---|
+| 2 | [Add Two Numbers](src/medium/[2]Add Two Numbers.java) |
+| 3 | [Longest Substring Without Repeating Characters](src/medium/[3]Longest Substring Without Repeating Characters.java) |
+| 5 | [Longest Palindromic Substring](src/medium/[5]Longest Palindromic Substring.java) |
+| 6 | [Zigzag Conversion](src/medium/[6]Zigzag Conversion.java) |
+| 7 | [Reverse Integer](src/medium/[7]Reverse Integer.java) |
+| 8 | [String to Integer (atoi)](src/medium/[8]String to Integer (atoi).java) |
+| 11 | [Container With Most Water](src/medium/[11]Container With Most Water.java) |
+| 12 | [Integer to Roman](src/medium/[12]Integer to Roman.java) |
+| 15 | [3Sum](src/medium/[15]3Sum.java) |
+| 16 | [3Sum Closest](src/medium/[16]3Sum Closest.java) |
+| 17 | [Letter Combinations of a Phone Number](src/medium/[17]Letter Combinations of a Phone Number.java) |
+| 18 | [4Sum](src/medium/[18]4Sum.java) |
+| 19 | [Remove Nth Node From End of List](src/medium/[19]Remove Nth Node From End of List.java) |
+| 22 | [Generate Parentheses](src/medium/[22]Generate Parentheses.java) |
+| 29 | [Divide Two Integers](src/medium/[29]Divide Two Integers.java) |
+| 31 | [Next Permutation](src/medium/[31]Next Permutation.java) |
+| 33 | [Search in Rotated Sorted Array](src/medium/[33]Search in Rotated Sorted Array.java) |
+| 34 | [Find First and Last Position of Element in Sorted Array](src/medium/[34]Find First and Last Position of Element in Sorted Array.java) |
+| 53 | [Maximum Subarray](src/medium/[53]Maximum Subarray.java) |
+
+</details>
+
+<details open>
+<summary>🔴 Hard &nbsp;—&nbsp; <b>6 solved</b></summary>
+
+| # | Problem |
+|---|---|
+| 4 | [Median of Two Sorted Arrays](src/hard/[4]Median of Two Sorted Arrays.java) |
+| 10 | [Regular Expression Matching](src/hard/[10]Regular Expression Matching.java) |
+| 23 | [Merge k Sorted Lists](src/hard/[23]Merge k Sorted Lists.java) |
+| 25 | [Reverse Nodes in k-Group](src/hard/[25]Reverse Nodes in k-Group.java) |
+| 30 | [Substring with Concatenation of All Words](src/hard/[30]Substring with Concatenation of All Words.java) |
+| 32 | [Longest Valid Parentheses](src/hard/[32]Longest Valid Parentheses.java) |
+
+</details>
 
 ---
 
 <div align="center">
-<sub>Last updated: 2026-06-24 15:02 · Auto-generated by <a href="update-readme.sh">update-readme.sh</a></sub>
+<sub>Last updated: 2026-06-24 15:48 · Auto-generated by <a href="update-readme.sh">update-readme.sh</a></sub>
 </div>

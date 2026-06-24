@@ -5,21 +5,13 @@ EASY_DIR="src/easy"
 MEDIUM_DIR="src/medium"
 HARD_DIR="src/hard"
 
-build_tree() {
+build_table() {
   local dir="$1"
-  local files=()
-  while IFS= read -r f; do files+=("$f"); done < <(find "$dir" -maxdepth 1 -name "*.java" 2>/dev/null | sort -t'[' -k2 -n)
-  local total=${#files[@]}
-  for i in "${!files[@]}"; do
-    local f="${files[$i]}"
+  find "$dir" -maxdepth 1 -name "*.java" 2>/dev/null | sort -t'[' -k2 -n | while IFS= read -r f; do
     local name=$(basename "$f" .java)
     local num=$(echo "$name" | grep -oP '\d+' | head -1)
     local title=$(echo "$name" | sed 's/^\[[0-9]*\]//' | xargs)
-    if [ $((i + 1)) -eq $total ]; then
-      echo "&nbsp;&nbsp;&nbsp;&nbsp;└── [$num. $title]($f)"
-    else
-      echo "&nbsp;&nbsp;&nbsp;&nbsp;├── [$num. $title]($f)  "
-    fi
+    echo "| $num | [$title]($f) |"
   done
 }
 
@@ -28,9 +20,9 @@ MEDIUM_COUNT=$(find "$MEDIUM_DIR" -maxdepth 1 -name "*.java" 2>/dev/null | wc -l
 HARD_COUNT=$(find "$HARD_DIR" -maxdepth 1 -name "*.java" 2>/dev/null | wc -l)
 TOTAL=$((EASY_COUNT + MEDIUM_COUNT + HARD_COUNT))
 
-EASY_TREE=$(build_tree "$EASY_DIR")
-MEDIUM_TREE=$(build_tree "$MEDIUM_DIR")
-HARD_TREE=$(build_tree "$HARD_DIR")
+EASY_ROWS=$(build_table "$EASY_DIR")
+MEDIUM_ROWS=$(build_table "$MEDIUM_DIR")
+HARD_ROWS=$(build_table "$HARD_DIR")
 
 python3 generate-progress.py "$EASY_COUNT" "$MEDIUM_COUNT" "$HARD_COUNT" > progress.svg
 
@@ -58,14 +50,32 @@ cat > README.md << MDEOF
 
 ## Solutions
 
-🟢 **easy/** (${EASY_COUNT})
-${EASY_TREE}
+<details open>
+<summary>🟢 Easy &nbsp;—&nbsp; <b>${EASY_COUNT} solved</b></summary>
 
-🟡 **medium/** (${MEDIUM_COUNT})
-${MEDIUM_TREE}
+| # | Problem |
+|---|---|
+${EASY_ROWS}
 
-🔴 **hard/** (${HARD_COUNT})
-${HARD_TREE}
+</details>
+
+<details open>
+<summary>🟡 Medium &nbsp;—&nbsp; <b>${MEDIUM_COUNT} solved</b></summary>
+
+| # | Problem |
+|---|---|
+${MEDIUM_ROWS}
+
+</details>
+
+<details open>
+<summary>🔴 Hard &nbsp;—&nbsp; <b>${HARD_COUNT} solved</b></summary>
+
+| # | Problem |
+|---|---|
+${HARD_ROWS}
+
+</details>
 
 ---
 
