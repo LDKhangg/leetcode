@@ -4,15 +4,15 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-33-blue)
+![Total](https://img.shields.io/badge/Total-34-blue)
 ![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-18-orange)
+![Medium](https://img.shields.io/badge/Medium-19-orange)
 ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 9 |
-| 🟡 Medium  | 18 |
+| 🟡 Medium  | 19 |
 | 🔴 Hard    | 6 |
 
 ## 📁 Structure
@@ -55,6 +55,7 @@ leetcode/
 - [`[29]Divide Two Integers`](src/leetcode/editor/en/[29]Divide Two Integers.java)
 - [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
 - [`[33]Search in Rotated Sorted Array`](src/leetcode/editor/en/[33]Search in Rotated Sorted Array.java)
+- [`[34]Find First and Last Position of Element in Sorted Array`](src/leetcode/editor/en/[34]Find First and Last Position of Element in Sorted Array.java)
 - [`[53]Maximum Subarray`](src/leetcode/editor/en/[53]Maximum Subarray.java)
 
 ### 🔴 Hard
@@ -67,4 +68,4 @@ leetcode/
 - [`[32]Longest Valid Parentheses`](src/leetcode/editor/en/[32]Longest Valid Parentheses.java)
 
 ---
-*Last updated: 2026-06-24 14:01*
+*Last updated: 2026-06-24 14:30*
