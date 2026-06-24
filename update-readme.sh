@@ -11,7 +11,8 @@ build_table() {
     local name=$(basename "$f" .java)
     local num=$(echo "$name" | grep -oP '\d+' | head -1)
     local title=$(echo "$name" | sed 's/^\[[0-9]*\]//' | xargs)
-    echo "| $num | [$title]($f) |"
+    local url=$(echo "$f" | sed 's/\[/%5B/g; s/\]/%5D/g; s/ /%20/g')
+    echo "| $num | [$title]($url) |"
   done
 }
 
