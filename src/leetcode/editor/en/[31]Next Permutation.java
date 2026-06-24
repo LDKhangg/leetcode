@@ -60,7 +60,31 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void nextPermutation(int[] nums) {
-        
+        int pivot = nums.length-2;
+        while(pivot>=0&&nums[pivot]>=nums[pivot+1]){
+            pivot--;
+        }
+        if(pivot>=0){
+            int i=nums.length-1;
+            while(i>=0&& nums[i]<=nums[pivot]){
+                i--;
+            }
+            swap(nums,pivot,i);
+        }
+        reverse(nums,pivot+1,nums.length-1);
+    }
+    private void swap(int[] nums,int i,int j){
+        int temp = nums[i];
+        nums[i]=nums[j];
+        nums[j]=temp;
+    }
+    private void reverse(int[] nums,int start,int end){
+        while(start<end){
+            swap(nums,start,end);
+            start++;
+            end--;
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
