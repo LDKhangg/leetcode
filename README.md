@@ -4,14 +4,14 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-34-blue)
-![Easy](https://img.shields.io/badge/Easy-9-brightgreen)
+![Total](https://img.shields.io/badge/Total-35-blue)
+![Easy](https://img.shields.io/badge/Easy-10-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-19-orange)
 ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 9 |
+| 🟢 Easy    | 10 |
 | 🟡 Medium  | 19 |
 | 🔴 Hard    | 6 |
 
@@ -35,6 +35,7 @@ leetcode/
 - [`[26]Remove Duplicates from Sorted Array`](src/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.java)
 - [`[27]Remove Element`](src/leetcode/editor/en/[27]Remove Element.java)
 - [`[28]Find the Index of the First Occurrence in a String`](src/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.java)
+- [`[35]Search Insert Position`](src/leetcode/editor/en/[35]Search Insert Position.java)
 
 ### 🟡 Medium
 
@@ -68,4 +69,4 @@ leetcode/
 - [`[32]Longest Valid Parentheses`](src/leetcode/editor/en/[32]Longest Valid Parentheses.java)
 
 ---
-*Last updated: 2026-06-24 14:30*
+*Last updated: 2026-06-24 14:37*
