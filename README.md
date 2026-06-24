@@ -4,16 +4,16 @@ My LeetCode solutions in Java.
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-35-blue)
-![Easy](https://img.shields.io/badge/Easy-10-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-19-orange)
-![Hard](https://img.shields.io/badge/Hard-6-red)
+![Total](https://img.shields.io/badge/Total-0-blue)
+![Easy](https://img.shields.io/badge/Easy-0-brightgreen)
+![Medium](https://img.shields.io/badge/Medium-0-orange)
+![Hard](https://img.shields.io/badge/Hard-0-red)
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 10 |
-| 🟡 Medium  | 19 |
-| 🔴 Hard    | 6 |
+| 🟢 Easy    | 0 |
+| 🟡 Medium  | 0 |
+| 🔴 Hard    | 0 |
 
 ## 📁 Structure
 
@@ -26,47 +26,12 @@ leetcode/
 
 ### 🟢 Easy
 
-- [`[1]Two Sum`](src/leetcode/editor/en/[1]Two Sum.java)
-- [`[9]Palindrome Number`](src/leetcode/editor/en/[9]Palindrome Number.java)
-- [`[13]Roman to Integer`](src/leetcode/editor/en/[13]Roman to Integer.java)
-- [`[14]Longest Common Prefix`](src/leetcode/editor/en/[14]Longest Common Prefix.java)
-- [`[20]Valid Parentheses`](src/leetcode/editor/en/[20]Valid Parentheses.java)
-- [`[21]Merge Two Sorted Lists`](src/leetcode/editor/en/[21]Merge Two Sorted Lists.java)
-- [`[26]Remove Duplicates from Sorted Array`](src/leetcode/editor/en/[26]Remove Duplicates from Sorted Array.java)
-- [`[27]Remove Element`](src/leetcode/editor/en/[27]Remove Element.java)
-- [`[28]Find the Index of the First Occurrence in a String`](src/leetcode/editor/en/[28]Find the Index of the First Occurrence in a String.java)
-- [`[35]Search Insert Position`](src/leetcode/editor/en/[35]Search Insert Position.java)
 
 ### 🟡 Medium
 
-- [`[2]Add Two Numbers`](src/leetcode/editor/en/[2]Add Two Numbers.java)
-- [`[3]Longest Substring Without Repeating Characters`](src/leetcode/editor/en/[3]Longest Substring Without Repeating Characters.java)
-- [`[5]Longest Palindromic Substring`](src/leetcode/editor/en/[5]Longest Palindromic Substring.java)
-- [`[6]Zigzag Conversion`](src/leetcode/editor/en/[6]Zigzag Conversion.java)
-- [`[7]Reverse Integer`](src/leetcode/editor/en/[7]Reverse Integer.java)
-- [`[8]String to Integer (atoi)`](src/leetcode/editor/en/[8]String to Integer (atoi).java)
-- [`[11]Container With Most Water`](src/leetcode/editor/en/[11]Container With Most Water.java)
-- [`[12]Integer to Roman`](src/leetcode/editor/en/[12]Integer to Roman.java)
-- [`[15]3Sum`](src/leetcode/editor/en/[15]3Sum.java)
-- [`[16]3Sum Closest`](src/leetcode/editor/en/[16]3Sum Closest.java)
-- [`[17]Letter Combinations of a Phone Number`](src/leetcode/editor/en/[17]Letter Combinations of a Phone Number.java)
-- [`[18]4Sum`](src/leetcode/editor/en/[18]4Sum.java)
-- [`[19]Remove Nth Node From End of List`](src/leetcode/editor/en/[19]Remove Nth Node From End of List.java)
-- [`[22]Generate Parentheses`](src/leetcode/editor/en/[22]Generate Parentheses.java)
-- [`[29]Divide Two Integers`](src/leetcode/editor/en/[29]Divide Two Integers.java)
-- [`[31]Next Permutation`](src/leetcode/editor/en/[31]Next Permutation.java)
-- [`[33]Search in Rotated Sorted Array`](src/leetcode/editor/en/[33]Search in Rotated Sorted Array.java)
-- [`[34]Find First and Last Position of Element in Sorted Array`](src/leetcode/editor/en/[34]Find First and Last Position of Element in Sorted Array.java)
-- [`[53]Maximum Subarray`](src/leetcode/editor/en/[53]Maximum Subarray.java)
 
 ### 🔴 Hard
 
-- [`[4]Median of Two Sorted Arrays`](src/leetcode/editor/en/[4]Median of Two Sorted Arrays.java)
-- [`[10]Regular Expression Matching`](src/leetcode/editor/en/[10]Regular Expression Matching.java)
-- [`[23]Merge k Sorted Lists`](src/leetcode/editor/en/[23]Merge k Sorted Lists.java)
-- [`[25]Reverse Nodes in k-Group`](src/leetcode/editor/en/[25]Reverse Nodes in k-Group.java)
-- [`[30]Substring with Concatenation of All Words`](src/leetcode/editor/en/[30]Substring with Concatenation of All Words.java)
-- [`[32]Longest Valid Parentheses`](src/leetcode/editor/en/[32]Longest Valid Parentheses.java)
 
 ---
-*Last updated: 2026-06-24 14:37*
+*Last updated: 2026-06-24 14:52*
