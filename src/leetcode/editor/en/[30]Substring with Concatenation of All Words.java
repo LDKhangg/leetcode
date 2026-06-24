@@ -70,10 +70,54 @@
 // Related Topics Hash Table String Sliding Window 👍 2695 👎 442
 
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
-        
+        int wordLen=words[0].length();
+        int wordCount=words.length;
+        int totalLen=wordCount*wordLen;
+        if(s.length()<totalLen) return new ArrayList<>();
+        Map<String,Integer> target = new HashMap<>();
+        for(String word:words){
+            target.put(word,target.getOrDefault(word,0)+1);
+        }
+        List<Integer> result =new ArrayList<>();
+        for(int i=0;i<wordLen;i++){
+            int left=i;
+            int count=0;
+            Map<String,Integer> window=new HashMap<>();
+            for(int j=i;j+wordLen<=s.length();j+=wordLen){
+                String subString=s.substring(j,j+wordLen);
+                if(!target.containsKey(subString)){
+                    window.clear();
+                    count=0;
+                    left=j+wordLen;
+                    continue;
+                }
+                window.put(subString,window.getOrDefault(subString,0)+1);
+                count++;
+                while(window.get(subString)>target.get(subString)){
+                    String leftWord=s.substring(left,left+wordLen);
+                    window.put(leftWord,window.get(leftWord)-1);
+                    count--;
+                    left+=wordLen;
+                }
+
+                if(count==wordCount){
+                    result.add(left);
+                    String leftWord=s.substring(left,left+wordLen);
+                    window.put(leftWord,window.get(leftWord)-1);
+                    count--;
+                    left+=wordLen;
+                }
+            }
+        }
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
