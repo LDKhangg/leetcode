@@ -10,7 +10,7 @@ build_table() {
   find "$dir" -maxdepth 1 -name "*.java" 2>/dev/null | sort -t'[' -k2 -n | while IFS= read -r f; do
     local name=$(basename "$f" .java)
     local num=$(echo "$name" | grep -oP '\d+' | head -1)
-    local title=$(echo "$name" | sed 's/^\[[0-9]*\]//' | xargs)
+    local title=$(echo "$name" | sed 's/^\[[0-9]*\]//; s/^[[:space:]]*//; s/[[:space:]]*$//')
     local url=$(echo "$f" | sed 's/\[/%5B/g; s/\]/%5D/g; s/ /%20/g')
     echo "| $num | [$title]($url) |"
   done
