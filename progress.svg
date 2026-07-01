@@ -3,17 +3,17 @@
 
   <!-- donut -->
   <path d="M 56.159,133.841 A 62,62 0 1,1 143.841,133.841" stroke="#2d2d3d" stroke-width="14" fill="none" stroke-linecap="round"/>
-  <path d="M 56.159,133.841 A 62,62 0 0,1 94.165,28.275" stroke="#22c55e" stroke-width="14" fill="none" stroke-linecap="round"/>
-  <path d="M 94.165,28.275 A 62,62 0 0,1 160.507,103.525" stroke="#f59e0b" stroke-width="14" fill="none" stroke-linecap="round"/>
-  <path d="M 160.507,103.525 A 62,62 0 0,1 143.841,133.841" stroke="#ef4444" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M 56.159,133.841 A 62,62 0 0,1 100.000,28.000" stroke="#22c55e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M 100.000,28.000 A 62,62 0 0,1 160.198,104.838" stroke="#f59e0b" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M 160.198,104.838 A 62,62 0 0,1 143.841,133.841" stroke="#ef4444" stroke-width="14" fill="none" stroke-linecap="round"/>
 
   <!-- center text -->
-  <text x="100" y="82" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="monospace">50</text>
+  <text x="100" y="82" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="monospace">52</text>
   <text x="100" y="102" text-anchor="middle" fill="#8b949e" font-size="11" font-family="sans-serif">Solved</text>
 
   <!-- stats labels -->
   <text x="220" y="55"  fill="#22c55e" font-size="12" font-weight="bold" font-family="sans-serif">Easy</text>
-  <text x="300" y="55"  fill="#e6edf3" font-size="12" font-family="monospace" text-anchor="end">24</text>
+  <text x="300" y="55"  fill="#e6edf3" font-size="12" font-family="monospace" text-anchor="end">26</text>
 
   <text x="220" y="82"  fill="#f59e0b" font-size="12" font-weight="bold" font-family="sans-serif">Medium</text>
   <text x="300" y="82"  fill="#e6edf3" font-size="12" font-family="monospace" text-anchor="end">20</text>
