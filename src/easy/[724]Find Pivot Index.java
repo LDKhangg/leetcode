@@ -8,19 +8,32 @@
 class Solution {
     public int pivotIndex(int[] nums) {
         int n=nums.length;
-        int sum=0;
-        for(int num:nums){
-            sum+=num;
+        // int sum=0;
+        // for(int num:nums){
+        //     sum+=num;
+        // }
+        // int leftSum=0;
+        // for(int i = 0 ; i< n;i++){
+        //     int rightSum=sum-nums[i]-leftSum;
+        //     if (leftSum == rightSum) {
+        //         return i;
+        //     }
+
+        //     leftSum += nums[i];
+        // }
+
+        int[] prefix = new int[n+1];
+        for(int i =0;i<n;i++){
+            prefix[i+1]=prefix[i]+nums[i];
         }
-        int leftSum=0;
-        for(int i = 0 ; i< n;i++){
-            int rightSum=sum-nums[i]-leftSum;
-            if (leftSum == rightSum) {
+        for(int i = 0;i<n;i++){
+            int lSum=prefix[i];
+            int rSum=prefix[n]-prefix[i+1];
+            if(lSum==rSum){
                 return i;
             }
-
-            leftSum += nums[i];
         }
+
         return -1;
     }
 }
