@@ -32,8 +32,10 @@ class MyQueue {
     }
 
     private void moveInputToOutput(){
+        if(output.isEmpty()){
         while(!input.isEmpty()){
             output.push(input.pop());
+        }
         }
     }
 }
