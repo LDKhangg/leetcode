@@ -33,7 +33,6 @@ class Solution {
         for(Node child:root.children){
             maxChildDepth=Math.max(maxChildDepth, maxChildDepth(child));
         }
-
         return 1+ maxChildDepth;
     }
 }
