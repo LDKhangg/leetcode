@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate neetcode-graph.svg: dependency tree + donut, dark style like NeetCode roadmap screenshot."""
 import json, math, os
+from xml.sax.saxutils import escape as xml_escape
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(BASE, "neetcode150.json")
@@ -132,14 +133,14 @@ def generate(out=None, done_ids=None):
         # wrap label (max 2 lines)
         words = label.split(" / ") if " / " in label else label.split(" ")
         if len(words) == 1:
-            parts.append(f'<text x="{x+W/2}" y="{y+20}" text-anchor="middle" fill="white" font-size="11.5" font-weight="600" font-family="sans-serif">{words[0]}</text>')
+            parts.append(f'<text x="{x+W/2}" y="{y+20}" text-anchor="middle" fill="white" font-size="11.5" font-weight="600" font-family="sans-serif">{xml_escape(words[0])}</text>')
         else:
             # crude: first line + second line
             mid = (len(words) + 1) // 2
             l1 = " ".join(words[:mid]).replace(" /", "/")
             l2 = " ".join(words[mid:])
-            parts.append(f'<text x="{x+W/2}" y="{y+16}" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="sans-serif">{l1}</text>')
-            parts.append(f'<text x="{x+W/2}" y="{y+29}" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="sans-serif">{l2}</text>')
+            parts.append(f'<text x="{x+W/2}" y="{y+16}" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="sans-serif">{xml_escape(l1)}</text>')
+            parts.append(f'<text x="{x+W/2}" y="{y+29}" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="sans-serif">{xml_escape(l2)}</text>')
         parts.append(f'<text x="{x+W/2}" y="{y+H-14}" text-anchor="middle" fill="#c9d1d9" font-size="9.5" font-family="monospace">{done}/{tot}</text>')
         # progress bar
         bw = W - 20

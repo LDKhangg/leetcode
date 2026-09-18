@@ -1,12 +1,12 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 34/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 35/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
 | # | Category | Done | Bar |
 |---|----------|------|-----|
-| 1 | Arrays & Hashing | 2/9 | `██░░░░░░░░` |
+| 1 | Arrays & Hashing | 3/9 | `███░░░░░░░` |
 | 2 | Two Pointers | 3/5 | `██████░░░░` |
 | 3 | Stack | 2/7 | `███░░░░░░░` |
 | 4 | Sliding Window | 2/6 | `███░░░░░░░` |
@@ -26,7 +26,6 @@
 | 18 | Bit Manipulation | 4/7 | `██████░░░░` |
 
 ## Next up (foundation first)
-- [ ] 242 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) *(Arrays & Hashing)*
 - [ ] 49 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) *(Arrays & Hashing)*
 - [ ] 347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) *(Arrays & Hashing)*
 - [ ] 238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) *(Arrays & Hashing)*
@@ -41,14 +40,15 @@
 - [ ] 84 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) *(Stack)*
 - [ ] 424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) *(Sliding Window)*
 - [ ] 567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) *(Sliding Window)*
+- [ ] 76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) *(Sliding Window)*
 
 <details open>
-<summary><b>Arrays & Hashing</b> — 2/9</summary>
+<summary><b>Arrays & Hashing</b> — 3/9</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 217 | [Contains Duplicate](src/easy/%5B217%5DContains%20Duplicate.java) | Easy | `contains-duplicate` |
-| ⬜ | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | `valid-anagram` |
+| ✅ | 242 | [Valid Anagram](src/easy/%5B242%5DValid%20Anagram.java) | Easy | `valid-anagram` |
 | ✅ | 1 | [Two Sum](src/easy/%5B1%5DTwo%20Sum.java) | Easy | `two-sum` |
 | ⬜ | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | `group-anagrams` |
 | ⬜ | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | `top-k-frequent-elements` |
