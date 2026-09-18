@@ -27,6 +27,10 @@ HARD_ROWS=$(build_table "$HARD_DIR")
 
 python3 generate-progress.py "$EASY_COUNT" "$MEDIUM_COUNT" "$HARD_COUNT" > progress.svg
 
+# Single-source NeetCode view: same src/**/*.java scan, ID-only match.
+python3 check-neetcode.py
+NC_DONE=$(grep -oP '\*\*Progress: \K\d+' NEETCODE150.md | head -1)
+
 cat > README.md << MDEOF
 <div align="center">
 
@@ -46,6 +50,16 @@ cat > README.md << MDEOF
 ## Progress
 
 ![Progress](progress.svg)
+
+---
+
+## NeetCode 150 — ${NC_DONE}/150
+
+[![NeetCode](https://img.shields.io/badge/NeetCode-${NC_DONE}%2F150-8b5cf6?style=for-the-badge)](NEETCODE150.md)
+
+![NeetCode graph](neetcode-graph.svg)
+
+> Single source: \`src/easy|medium|hard\` — bài nào ID nằm trong NeetCode thì +1 cả 2 bên, bài ngoài list chỉ +1 LeetCode. Match bằng ID số, xem chi tiết trong [NEETCODE150.md](NEETCODE150.md).
 
 ---
 
