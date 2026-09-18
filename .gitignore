@@ -1,0 +1,4 @@
+.obsidian/
+*.class
+__pycache__/
+out/
