@@ -1,6 +1,6 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 40/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 41/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
@@ -8,7 +8,7 @@
 |---|----------|------|-----|
 | 1 | Arrays & Hashing | 5/9 | `██████░░░░` |
 | 2 | Two Pointers | 4/5 | `████████░░` |
-| 3 | Stack | 4/7 | `██████░░░░` |
+| 3 | Stack | 5/7 | `███████░░░` |
 | 4 | Sliding Window | 2/6 | `███░░░░░░░` |
 | 5 | Binary Search | 3/7 | `████░░░░░░` |
 | 6 | Linked List | 7/11 | `██████░░░░` |
@@ -30,7 +30,6 @@
 - [ ] 36 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) *(Arrays & Hashing)*
 - [ ] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) *(Arrays & Hashing)*
 - [ ] 42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(Two Pointers)*
-- [ ] 739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) *(Stack)*
 - [ ] 853 [Car Fleet](https://leetcode.com/problems/car-fleet/) *(Stack)*
 - [ ] 84 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) *(Stack)*
 - [ ] 424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) *(Sliding Window)*
@@ -41,6 +40,7 @@
 - [ ] 875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(Binary Search)*
 - [ ] 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *(Binary Search)*
 - [ ] 981 [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) *(Binary Search)*
+- [ ] 143 [Reorder List](https://leetcode.com/problems/reorder-list/) *(Linked List)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -73,7 +73,7 @@
 </details>
 
 <details open>
-<summary><b>Stack</b> — 4/7</summary>
+<summary><b>Stack</b> — 5/7</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
@@ -81,7 +81,7 @@
 | ✅ | 155 | [Min Stack](src/medium/%5B155%5DMin%20Stack.java) | Medium | `min-stack` |
 | ✅ | 150 | [Evaluate Reverse Polish Notation](src/medium/%5B150%5DEvaluate%20Reverse%20Polish%20Notation.java) | Medium | `evaluate-reverse-polish-notation` |
 | ✅ | 22 | [Generate Parentheses](src/medium/%5B22%5DGenerate%20Parentheses.java) | Medium | `generate-parentheses` |
-| ⬜ | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | `daily-temperatures` |
+| ✅ | 739 | [Daily Temperatures](src/medium/%5B739%5DDaily%20Temperatures.java) | Medium | `daily-temperatures` |
 | ⬜ | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | `car-fleet` |
 | ⬜ | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | `largest-rectangle-in-histogram` |
 
