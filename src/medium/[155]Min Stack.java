@@ -45,6 +45,7 @@ class MinStack {
     // return stk2.getLast();
     // }
 
+    // Cách 2 dùng array cải thiện runtime với usage
     int[] stack;
     int[] minStack;
     private int head;
