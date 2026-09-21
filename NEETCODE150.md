@@ -1,6 +1,6 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 38/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 39/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
@@ -8,7 +8,7 @@
 |---|----------|------|-----|
 | 1 | Arrays & Hashing | 5/9 | `██████░░░░` |
 | 2 | Two Pointers | 4/5 | `████████░░` |
-| 3 | Stack | 2/7 | `███░░░░░░░` |
+| 3 | Stack | 3/7 | `████░░░░░░` |
 | 4 | Sliding Window | 2/6 | `███░░░░░░░` |
 | 5 | Binary Search | 3/7 | `████░░░░░░` |
 | 6 | Linked List | 7/11 | `██████░░░░` |
@@ -30,7 +30,6 @@
 - [ ] 36 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) *(Arrays & Hashing)*
 - [ ] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) *(Arrays & Hashing)*
 - [ ] 42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(Two Pointers)*
-- [ ] 155 [Min Stack](https://leetcode.com/problems/min-stack/) *(Stack)*
 - [ ] 150 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) *(Stack)*
 - [ ] 739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) *(Stack)*
 - [ ] 853 [Car Fleet](https://leetcode.com/problems/car-fleet/) *(Stack)*
@@ -41,6 +40,7 @@
 - [ ] 239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) *(Sliding Window)*
 - [ ] 74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) *(Binary Search)*
 - [ ] 875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(Binary Search)*
+- [ ] 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *(Binary Search)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -73,12 +73,12 @@
 </details>
 
 <details open>
-<summary><b>Stack</b> — 2/7</summary>
+<summary><b>Stack</b> — 3/7</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 20 | [Valid Parentheses](src/easy/%5B20%5DValid%20Parentheses.java) | Easy | `valid-parentheses` |
-| ⬜ | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | `min-stack` |
+| ✅ | 155 | [Min Stack](src/medium/%5B155%5DMin%20Stack.java) | Medium | `min-stack` |
 | ⬜ | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | `evaluate-reverse-polish-notation` |
 | ✅ | 22 | [Generate Parentheses](src/medium/%5B22%5DGenerate%20Parentheses.java) | Medium | `generate-parentheses` |
 | ⬜ | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | `daily-temperatures` |
