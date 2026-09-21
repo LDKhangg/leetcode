@@ -1,13 +1,13 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 37/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 38/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
 | # | Category | Done | Bar |
 |---|----------|------|-----|
 | 1 | Arrays & Hashing | 5/9 | `██████░░░░` |
-| 2 | Two Pointers | 3/5 | `██████░░░░` |
+| 2 | Two Pointers | 4/5 | `████████░░` |
 | 3 | Stack | 2/7 | `███░░░░░░░` |
 | 4 | Sliding Window | 2/6 | `███░░░░░░░` |
 | 5 | Binary Search | 3/7 | `████░░░░░░` |
@@ -29,7 +29,6 @@
 - [ ] 238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) *(Arrays & Hashing)*
 - [ ] 36 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) *(Arrays & Hashing)*
 - [ ] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) *(Arrays & Hashing)*
-- [ ] 167 [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) *(Two Pointers)*
 - [ ] 42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(Two Pointers)*
 - [ ] 155 [Min Stack](https://leetcode.com/problems/min-stack/) *(Stack)*
 - [ ] 150 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) *(Stack)*
@@ -41,6 +40,7 @@
 - [ ] 76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) *(Sliding Window)*
 - [ ] 239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) *(Sliding Window)*
 - [ ] 74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) *(Binary Search)*
+- [ ] 875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(Binary Search)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -60,12 +60,12 @@
 </details>
 
 <details open>
-<summary><b>Two Pointers</b> — 3/5</summary>
+<summary><b>Two Pointers</b> — 4/5</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 125 | [Valid Palindrome](src/easy/%5B125%5DValid%20Palindrome.java) | Easy | `valid-palindrome` |
-| ⬜ | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | `two-sum-ii-input-array-is-sorted` |
+| ✅ | 167 | [Two Sum II - Input Array Is Sorted](src/medium/%5B167%5DTwo%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.java) | Medium | `two-sum-ii-input-array-is-sorted` |
 | ✅ | 15 | [3Sum](src/medium/%5B15%5D3Sum.java) | Medium | `3sum` |
 | ✅ | 11 | [Container With Most Water](src/medium/%5B11%5DContainer%20With%20Most%20Water.java) | Medium | `container-with-most-water` |
 | ⬜ | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | `trapping-rain-water` |
