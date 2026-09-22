@@ -1,6 +1,6 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 43/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 44/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
@@ -9,7 +9,7 @@
 | 1 | Arrays & Hashing | 5/9 | `██████░░░░` |
 | 2 | Two Pointers | 4/5 | `████████░░` |
 | 3 | Stack | 6/7 | `█████████░` |
-| 4 | Sliding Window | 3/6 | `█████░░░░░` |
+| 4 | Sliding Window | 4/6 | `███████░░░` |
 | 5 | Binary Search | 3/7 | `████░░░░░░` |
 | 6 | Linked List | 7/11 | `██████░░░░` |
 | 7 | Trees | 6/15 | `████░░░░░░` |
@@ -31,7 +31,6 @@
 - [ ] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) *(Arrays & Hashing)*
 - [ ] 42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(Two Pointers)*
 - [ ] 84 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) *(Stack)*
-- [ ] 567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) *(Sliding Window)*
 - [ ] 76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) *(Sliding Window)*
 - [ ] 239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) *(Sliding Window)*
 - [ ] 74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) *(Binary Search)*
@@ -41,6 +40,7 @@
 - [ ] 143 [Reorder List](https://leetcode.com/problems/reorder-list/) *(Linked List)*
 - [ ] 138 [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) *(Linked List)*
 - [ ] 287 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) *(Linked List)*
+- [ ] 146 [LRU Cache](https://leetcode.com/problems/lru-cache/) *(Linked List)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -88,14 +88,14 @@
 </details>
 
 <details open>
-<summary><b>Sliding Window</b> — 3/6</summary>
+<summary><b>Sliding Window</b> — 4/6</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 121 | [Best Time to Buy and Sell Stock](src/easy/%5B121%5DBest%20Time%20to%20Buy%20and%20Sell%20Stock.java) | Easy | `best-time-to-buy-and-sell-stock` |
 | ✅ | 3 | [Longest Substring Without Repeating Characters](src/medium/%5B3%5DLongest%20Substring%20Without%20Repeating%20Characters.java) | Medium | `longest-substring-without-repeating-characters` |
 | ✅ | 424 | [Longest Repeating Character Replacement](src/medium/%5B424%5DLongest%20Repeating%20Character%20Replacement.java) | Medium | `longest-repeating-character-replacement` |
-| ⬜ | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | `permutation-in-string` |
+| ✅ | 567 | [Permutation in String](src/medium/%5B567%5DPermutation%20in%20String.java) | Medium | `permutation-in-string` |
 | ⬜ | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | `minimum-window-substring` |
 | ⬜ | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | `sliding-window-maximum` |
 

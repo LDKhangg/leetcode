@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public int characterReplacement(String s, int k) {
-        char[] cArr = s.toCharArray();
+        byte[] cArr = s.getBytes();
         int[] count = new int[26];
 
         int left = 0, maxFreq = 0;
