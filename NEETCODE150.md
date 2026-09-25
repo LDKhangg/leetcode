@@ -1,6 +1,6 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 44/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 45/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
@@ -10,7 +10,7 @@
 | 2 | Two Pointers | 4/5 | `████████░░` |
 | 3 | Stack | 6/7 | `█████████░` |
 | 4 | Sliding Window | 4/6 | `███████░░░` |
-| 5 | Binary Search | 3/7 | `████░░░░░░` |
+| 5 | Binary Search | 4/7 | `██████░░░░` |
 | 6 | Linked List | 7/11 | `██████░░░░` |
 | 7 | Trees | 6/15 | `████░░░░░░` |
 | 8 | Trie | 0/3 | `░░░░░░░░░░` |
@@ -33,7 +33,6 @@
 - [ ] 84 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) *(Stack)*
 - [ ] 76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) *(Sliding Window)*
 - [ ] 239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) *(Sliding Window)*
-- [ ] 74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) *(Binary Search)*
 - [ ] 875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(Binary Search)*
 - [ ] 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *(Binary Search)*
 - [ ] 981 [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) *(Binary Search)*
@@ -41,6 +40,7 @@
 - [ ] 138 [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) *(Linked List)*
 - [ ] 287 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) *(Linked List)*
 - [ ] 146 [LRU Cache](https://leetcode.com/problems/lru-cache/) *(Linked List)*
+- [ ] 235 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) *(Trees)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -102,12 +102,12 @@
 </details>
 
 <details open>
-<summary><b>Binary Search</b> — 3/7</summary>
+<summary><b>Binary Search</b> — 4/7</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 704 | [Binary Search](src/easy/%5B704%5DBinary%20Search.java) | Easy | `binary-search` |
-| ⬜ | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | `search-a-2d-matrix` |
+| ✅ | 74 | [Search a 2D Matrix](src/medium/%5B74%5DSearch%20a%202D%20Matrix.java) | Medium | `search-a-2d-matrix` |
 | ⬜ | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | `koko-eating-bananas` |
 | ⬜ | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | `find-minimum-in-rotated-sorted-array` |
 | ✅ | 33 | [Search in Rotated Sorted Array](src/medium/%5B33%5DSearch%20in%20Rotated%20Sorted%20Array.java) | Medium | `search-in-rotated-sorted-array` |
