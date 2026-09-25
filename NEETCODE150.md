@@ -1,6 +1,6 @@
 # NeetCode 150 — Tracker (single source: `src/**/*.java`)
 
-**Progress: 46/150** — match by numeric ID only. Title/slug mismatch ignored.
+**Progress: 47/150** — match by numeric ID only. Title/slug mismatch ignored.
 
 ![NeetCode graph](neetcode-graph.svg)
 
@@ -10,7 +10,7 @@
 | 2 | Two Pointers | 4/5 | `████████░░` |
 | 3 | Stack | 6/7 | `█████████░` |
 | 4 | Sliding Window | 4/6 | `███████░░░` |
-| 5 | Binary Search | 5/7 | `███████░░░` |
+| 5 | Binary Search | 6/7 | `█████████░` |
 | 6 | Linked List | 7/11 | `██████░░░░` |
 | 7 | Trees | 6/15 | `████░░░░░░` |
 | 8 | Trie | 0/3 | `░░░░░░░░░░` |
@@ -33,7 +33,6 @@
 - [ ] 84 [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) *(Stack)*
 - [ ] 76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) *(Sliding Window)*
 - [ ] 239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) *(Sliding Window)*
-- [ ] 153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *(Binary Search)*
 - [ ] 981 [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) *(Binary Search)*
 - [ ] 143 [Reorder List](https://leetcode.com/problems/reorder-list/) *(Linked List)*
 - [ ] 138 [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) *(Linked List)*
@@ -41,6 +40,7 @@
 - [ ] 146 [LRU Cache](https://leetcode.com/problems/lru-cache/) *(Linked List)*
 - [ ] 235 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) *(Trees)*
 - [ ] 102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) *(Trees)*
+- [ ] 199 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) *(Trees)*
 
 <details open>
 <summary><b>Arrays & Hashing</b> — 5/9</summary>
@@ -102,14 +102,14 @@
 </details>
 
 <details open>
-<summary><b>Binary Search</b> — 5/7</summary>
+<summary><b>Binary Search</b> — 6/7</summary>
 
 | | # | Problem | Diff | File / Link |
 |---|----|---------|------|-------------|
 | ✅ | 704 | [Binary Search](src/easy/%5B704%5DBinary%20Search.java) | Easy | `binary-search` |
 | ✅ | 74 | [Search a 2D Matrix](src/medium/%5B74%5DSearch%20a%202D%20Matrix.java) | Medium | `search-a-2d-matrix` |
 | ✅ | 875 | [Koko Eating Bananas](src/medium/%5B875%5DKoko%20Eating%20Bananas.java) | Medium | `koko-eating-bananas` |
-| ⬜ | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | `find-minimum-in-rotated-sorted-array` |
+| ✅ | 153 | [Find Minimum in Rotated Sorted Array](src/medium/%5B153%5DFind%20Minimum%20in%20Rotated%20Sorted%20Array.java) | Medium | `find-minimum-in-rotated-sorted-array` |
 | ✅ | 33 | [Search in Rotated Sorted Array](src/medium/%5B33%5DSearch%20in%20Rotated%20Sorted%20Array.java) | Medium | `search-in-rotated-sorted-array` |
 | ⬜ | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | `time-based-key-value-store` |
 | ✅ | 4 | [Median of Two Sorted Arrays](src/hard/%5B4%5DMedian%20of%20Two%20Sorted%20Arrays.java) | Hard | `median-of-two-sorted-arrays` |
